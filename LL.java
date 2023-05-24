@@ -16,8 +16,7 @@ public class LL{
   }
     Node head;
     Node tail;
-    int size=0;
-
+    
     public void addLast(int data){
       Node newOne=new Node(data);
       Node fortail=head;
@@ -33,8 +32,8 @@ public class LL{
         fortail.next=newOne;
         tail=newOne;
       }
-
     }
+    
    public void insert(int data,int inds){
       Node newNode=new Node(data);
       Node temp=head;
